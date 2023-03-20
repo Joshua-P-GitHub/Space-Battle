@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
 }
 
-.alien {
+.alien, .uss {
   display: flex;
   justify-content: center;
 }
@@ -23,6 +23,7 @@ body {
   justify-content: center;
   width: 80%;
   color: white;
+  font-size: 40px;
 }
 
 .spaceship{
@@ -54,3 +55,39 @@ body {
   left: 45%;
   background-color: yellow;
 }
+
+.uss .main-part, .uss .turret-left, .uss .turret-right{
+  top: -50%;
+  background-color: green;
+}
+
+.uss .main-part {
+  height: 70px;
+  top: -30%;
+}
+.input{
+  width: 50%;
+  margin: 0 auto;
+  height: 5%;
+  display: none;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 17px;
+}
+
+.fire{
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  background-color: green;
+  top: 50%;
+  left: 51.5%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+
+
